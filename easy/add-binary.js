@@ -7,7 +7,7 @@
 //first trial
 var addBinary = function(a, b) {
 
-    return (parseInt(a, 2) + parseInt(b, 2).toString(2);
+    return (parseInt(a, 2) + parseInt(b, 2).toString(2));
 };
 
 //-> fail.
