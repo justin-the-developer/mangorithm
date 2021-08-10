@@ -17,7 +17,6 @@ var convert = function(s, numRows) {
         let trail = head - i % head;
 
         rows[Math.min(position, trail)] += s[i];
-        console.log(rows)
     }
 
     return rows.join('');
